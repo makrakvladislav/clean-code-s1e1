@@ -12,52 +12,52 @@
         charset="utf-8">
 </head>
 
-<body>
+<body class="app-container">
   <div class="header">
-    <img src="./eisenhower-matrix.jpg">
+    <img class="header-img" src="./eisenhower-matrix.jpg">
     <a class="more-info" 
        href="https://goal-life.com/page/method/matrix-eisenhower">
        Want more details?
     </a>
   </div>
   <div class="container">
-    <p id="new-tasks">
-      <label for="new-task">Add Item</label>
+    <p id="new-tasks" class="title">
+      <label for="new-task" class="task-text">Add Item</label>
       <div class="new-task-wrapper">
-        <input id="new-task"class="task" type="text">
-        <button>Add</button>
+        <input id="new-task" class="task-input" type="text">
+        <button class="btn btn-add">Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
-    <ul id="incomplete-tasks">
-      <li>
-        <input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
-          <img src="./remove.svg">
+    <h3 class="title">Todo</h3>
+    <ul id="incomplete-tasks" class="task-list">
+      <li class="task-item">
+        <input type="checkbox" class="task-check">
+        <label class="task-text">Pay Bills</label>
+        <input type="text" class="task-input">
+        <button class="btn btn-edit">Edit</button>
+        <button class="btn btn-delete">
+          <img src="./remove.svg" class="btn-ico ico-delete">
         </button>
       </li>
-      <li class="edit-mode">
-        <input type="checkbox">
-        <label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
-        <button class="edit">Save</button>
-        <button class="delete">
-          <img src="./remove.svg">
+      <li class="task-item edit-mode">
+        <input type="checkbox" class="task-check">
+        <label class="task-text">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="task-input">
+        <button class="btn btn-edit">Save</button>
+        <button class="btn btn-delete">
+          <img src="./remove.svg" class="btn-ico ico-remove">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
-    <ul id="completed-tasks">
-      <li>
-        <input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
-          <img src="./remove.svg">
+    <h3 class="title">Completed</h3>
+    <ul id="completed-tasks" class="task-list">
+      <li class="task-item">
+        <input type="checkbox" class="task-check" checked>
+        <label class="task-text">See the Doctor</label>
+        <input type="text" class="task-input">
+        <button class="btn btn-edit">Edit</button>
+        <button class="btn btn-delete">
+          <img src="./remove.svg" class="btn-ico ico-remove">
         </button>
       </li>
     </ul>
