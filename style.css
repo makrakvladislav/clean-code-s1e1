@@ -29,7 +29,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-input, .task-text {
+.task-input, 
+.task-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,7 +45,8 @@
 .task-item {
   list-style: none;
 }
-.task-input, .btn{
+.task-input, 
+.btn {
   outline: none;
 }
 .btn {
