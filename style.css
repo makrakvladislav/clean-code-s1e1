@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+
+  .header { 
+    text-align: center;
   }
+  
 }
 .container {
   display: block;
@@ -56,6 +59,7 @@
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -104,7 +108,6 @@
 .task-item > * {
   vertical-align: middle;
 }
-
 .task-item > .task-check {
   margin: 0 10px;
 }
@@ -136,12 +139,10 @@
 .task-list .task-item .task-input {
   display:none
 }
-
 .task-list .task-item.edit-mode .task-input {
   display:inline-block;
   width:224px
 }
-
 .task-list .task-item.edit-mode .task-text {
   display:none;
 }
