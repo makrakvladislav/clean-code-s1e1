@@ -89,7 +89,7 @@
 }
 
 /* New Task */
-#new-tasks.title {
+#new-tasks .title {
   display: block;
   margin: 0 0 20px;
 }
@@ -132,7 +132,7 @@
 }
 
 /* Completed */
-.task-list#completed-tasks .task-text {
+#completed-tasks.task-list .task-text {
   text-decoration: line-through;
   color: #888;
 }
